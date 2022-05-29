@@ -16,7 +16,7 @@ public class Leader{
       for(int i = 0; i<n; i++){
          if(arr[i]>max){
             System.out.print(arr[i]+" ");
-            max = arr[i];
+            max = arr[i];//end
          }
       }
    }
